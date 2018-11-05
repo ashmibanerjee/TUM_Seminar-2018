@@ -1,0 +1,775 @@
+%%% ====================================================================
+%%%  BibTeX-file{
+%%%     author          = "Gerry Murray",
+%%%     version         = "1.2",
+%%%     date            = "2 April 2012",
+%%%     filename        = "acmsmall-sample-bibfile.bib",
+%%%     address         = "ACM, NY",
+%%%     email           = "murray at hq.acm.org",
+%%%     codetable       = "ISO/ASCII",
+%%%     keywords        = "ACM Reference Format, bibliography, citation, references",
+%%%     supported       = "yes",
+%%%     docstring       = "This BibTeX database file contains 'bibdata' entries
+%%%                        that 'match' the examples provided in the Specifications Document
+%%%                        AND, also, 'legacy'-type bibs. It should assist authors in 
+%%%                        choosing the 'correct' at-bibtype and necessary bib-fields
+%%%                        so as to obtain the appropriate ACM Reference Format output. 
+%%%			   It also contains many 'Standard Abbreviations'. "
+%%%  }
+%%% ====================================================================
+
+% Journals
+
+% First the Full Name is given, then the abbreviation used in the AMS Math
+% Reviews, with an indication if it could not be found there.
+% Note the 2nd overwrites the 1st, so swap them if you want the full name.
+
+ %{AMS}
+ @String{AMSTrans = "American Mathematical Society Translations" }
+ @String{AMSTrans = "Amer. Math. Soc. Transl." }
+ @String{BullAMS = "Bulletin of the American Mathematical Society" }
+ @String{BullAMS = "Bull. Amer. Math. Soc." }
+ @String{ProcAMS = "Proceedings of the American Mathematical Society" }
+ @String{ProcAMS = "Proc. Amer. Math. Soc." }
+ @String{TransAMS = "Transactions of the American Mathematical Society" }
+ @String{TransAMS = "Trans. Amer. Math. Soc." }
+
+ %ACM
+ @String{CACM = "Communications of the {ACM}" }
+ @String{CACM = "Commun. {ACM}" }
+ @String{CompServ = "Comput. Surveys" }
+ @String{JACM = "J. ACM" }
+ @String{ACMMathSoft = "{ACM} Transactions on Mathematical Software" }
+ @String{ACMMathSoft = "{ACM} Trans. Math. Software" }
+ @String{SIGNUM = "{ACM} {SIGNUM} Newsletter" }
+ @String{SIGNUM = "{ACM} {SIGNUM} Newslett." }
+
+ @String{AmerSocio = "American Journal of Sociology" }
+ @String{AmerStatAssoc = "Journal of the American Statistical Association" }
+ @String{AmerStatAssoc = "J. Amer. Statist. Assoc." }
+ @String{ApplMathComp = "Applied Mathematics and Computation" }
+ @String{ApplMathComp = "Appl. Math. Comput." }
+ @String{AmerMathMonthly = "American Mathematical Monthly" }
+ @String{AmerMathMonthly = "Amer. Math. Monthly" }
+ @String{BIT = "{BIT}" }
+ @String{BritStatPsych = "British Journal of Mathematical and Statistical
+          Psychology" }
+ @String{BritStatPsych = "Brit. J. Math. Statist. Psych." }
+ @String{CanMathBull = "Canadian Mathematical Bulletin" }
+ @String{CanMathBull = "Canad. Math. Bull." }
+ @String{CompApplMath = "Journal of Computational and Applied Mathematics" }
+ @String{CompApplMath = "J. Comput. Appl. Math." }
+ @String{CompPhys = "Journal of Computational Physics" }
+ @String{CompPhys = "J. Comput. Phys." }
+ @String{CompStruct = "Computers and Structures" }
+ @String{CompStruct = "Comput. \& Structures" }
+ @String{CompJour = "The Computer Journal" }
+ @String{CompJour = "Comput. J." }
+ @String{CompSysSci = "Journal of Computer and System Sciences" }
+ @String{CompSysSci = "J. Comput. System Sci." }
+ @String{Computing = "Computing" }
+ @String{ContempMath = "Contemporary Mathematics" }
+ @String{ContempMath = "Contemp. Math." }
+ @String{Crelle = "Crelle's Journal" }
+ @String{GiornaleMath = "Giornale di Mathematiche" }
+ @String{GiornaleMath = "Giorn. Mat." } % didn't find in AMS MR., ibid.
+
+ %IEEE
+ @String{Computer = "{IEEE} Computer" }
+ @String{IEEETransComp = "{IEEE} Transactions on Computers" }
+ @String{IEEETransComp = "{IEEE} Trans. Comput." }
+ @String{IEEETransAC = "{IEEE} Transactions on Automatic Control" }
+ @String{IEEETransAC = "{IEEE} Trans. Automat. Control" }
+ @String{IEEESpec = "{IEEE} Spectrum" } % didn't find in AMS MR
+ @String{ProcIEEE = "Proceedings of the {IEEE}" }
+ @String{ProcIEEE = "Proc. {IEEE}" } % didn't find in AMS MR
+ @String{IEEETransAeroElec = "{IEEE} Transactions on Aerospace and Electronic
+     Systems" }
+ @String{IEEETransAeroElec = "{IEEE} Trans. Aerospace Electron. Systems" }
+
+ @String{IMANumerAna = "{IMA} Journal of Numerical Analysis" }
+ @String{IMANumerAna = "{IMA} J. Numer. Anal." }
+ @String{InfProcLet = "Information Processing Letters" }
+ @String{InfProcLet = "Inform. Process. Lett." }
+ @String{InstMathApp = "Journal of the Institute of Mathematics and
+     its Applications" }
+ @String{InstMathApp = "J. Inst. Math. Appl." }
+ @String{IntControl = "International Journal of Control" }
+ @String{IntControl = "Internat. J. Control" }
+ @String{IntNumerEng = "International Journal for Numerical Methods in
+     Engineering" }
+ @String{IntNumerEng = "Internat. J. Numer. Methods Engrg." }
+ @String{IntSuper = "International Journal of Supercomputing Applications" }
+ @String{IntSuper = "Internat. J. Supercomputing Applic." } % didn't find
+%% in AMS MR
+ @String{Kibernetika = "Kibernetika" }
+ @String{JResNatBurStand = "Journal of Research of the National Bureau
+     of Standards" }
+ @String{JResNatBurStand = "J. Res. Nat. Bur. Standards" }
+ @String{LinAlgApp = "Linear Algebra and its Applications" }
+ @String{LinAlgApp = "Linear Algebra Appl." }
+ @String{MathAnaAppl = "Journal of Mathematical Analysis and Applications" }
+ @String{MathAnaAppl = "J. Math. Anal. Appl." }
+ @String{MathAnnalen = "Mathematische Annalen" }
+ @String{MathAnnalen = "Math. Ann." }
+ @String{MathPhys = "Journal of Mathematical Physics" }
+ @String{MathPhys = "J. Math. Phys." }
+ @String{MathComp = "Mathematics of Computation" }
+ @String{MathComp = "Math. Comp." }
+ @String{MathScand = "Mathematica Scandinavica" }
+ @String{MathScand = "Math. Scand." }
+ @String{TablesAidsComp = "Mathematical Tables and Other Aids to Computation" }
+ @String{TablesAidsComp = "Math. Tables Aids Comput." }
+ @String{NumerMath = "Numerische Mathematik" }
+ @String{NumerMath = "Numer. Math." }
+ @String{PacificMath = "Pacific Journal of Mathematics" }
+ @String{PacificMath = "Pacific J. Math." }
+ @String{ParDistComp = "Journal of Parallel and Distributed Computing" }
+ @String{ParDistComp = "J. Parallel and Distrib. Comput." } % didn't find
+%% in AMS MR
+ @String{ParComputing = "Parallel Computing" }
+ @String{ParComputing = "Parallel Comput." }
+ @String{PhilMag = "Philosophical Magazine" }
+ @String{PhilMag = "Philos. Mag." }
+ @String{ProcNAS = "Proceedings of the National Academy of Sciences
+                    of the USA" }
+ @String{ProcNAS = "Proc. Nat. Acad. Sci. U. S. A." }
+ @String{Psychometrika = "Psychometrika" }
+ @String{QuartMath = "Quarterly Journal of Mathematics, Oxford, Series (2)" }
+ @String{QuartMath = "Quart. J. Math. Oxford Ser. (2)" }
+ @String{QuartApplMath = "Quarterly of Applied Mathematics" }
+ @String{QuartApplMath = "Quart. Appl. Math." }
+ @String{RevueInstStat = "Review of the International Statisical Institute" }
+ @String{RevueInstStat = "Rev. Inst. Internat. Statist." }
+
+ %SIAM
+ @String{JSIAM = "Journal of the Society for Industrial and Applied
+     Mathematics" }
+ @String{JSIAM = "J. Soc. Indust. Appl. Math." }
+ @String{JSIAMB = "Journal of the Society for Industrial and Applied
+     Mathematics, Series B, Numerical Analysis" }
+ @String{JSIAMB = "J. Soc. Indust. Appl. Math. Ser. B Numer. Anal." }
+ @String{SIAMAlgMeth = "{SIAM} Journal on Algebraic and Discrete Methods" }
+ @String{SIAMAlgMeth = "{SIAM} J. Algebraic Discrete Methods" }
+ @String{SIAMAppMath = "{SIAM} Journal on Applied Mathematics" }
+ @String{SIAMAppMath = "{SIAM} J. Appl. Math." }
+ @String{SIAMComp = "{SIAM} Journal on Computing" }
+ @String{SIAMComp = "{SIAM} J. Comput." }
+ @String{SIAMMatrix = "{SIAM} Journal on Matrix Analysis and Applications" }
+ @String{SIAMMatrix = "{SIAM} J. Matrix Anal. Appl." }
+ @String{SIAMNumAnal = "{SIAM} Journal on Numerical Analysis" }
+ @String{SIAMNumAnal = "{SIAM} J. Numer. Anal." }
+ @String{SIAMReview = "{SIAM} Review" }
+ @String{SIAMReview = "{SIAM} Rev." }
+ @String{SIAMSciStat = "{SIAM} Journal on Scientific and Statistical
+     Computing" }
+ @String{SIAMSciStat = "{SIAM} J. Sci. Statist. Comput." }
+
+ @String{SoftPracExp = "Software Practice and Experience" }
+ @String{SoftPracExp = "Software Prac. Experience" } % didn't find in AMS MR
+ @String{StatScience = "Statistical Science" }
+ @String{StatScience = "Statist. Sci." }
+ @String{Techno = "Technometrics" }
+ @String{USSRCompMathPhys = "{USSR} Computational Mathematics and Mathematical
+     Physics" }
+ @String{USSRCompMathPhys = "{U. S. S. R.} Comput. Math. and Math. Phys." }
+ @String{VLSICompSys = "Journal of {VLSI} and Computer Systems" }
+ @String{VLSICompSys = "J. {VLSI} Comput. Syst." }
+ @String{ZAngewMathMech = "Zeitschrift fur Angewandte Mathematik und
+     Mechanik" }
+ @String{ZAngewMathMech = "Z. Angew. Math. Mech." }
+ @String{ZAngewMathPhys = "Zeitschrift fur Angewandte Mathematik und Physik" }
+ @String{ZAngewMathPhys = "Z. Angew. Math. Phys." }
+
+% Publishers % ================================================= |
+
+ @String{Academic = "Academic Press" }
+ @String{ACMPress = "{ACM} Press" }
+ @String{AdamHilger = "Adam Hilger" }
+ @String{AddisonWesley = "Addison-Wesley" }
+ @String{AllynBacon = "Allyn and Bacon" }
+ @String{AMS = "American Mathematical Society" }
+ @String{Birkhauser = "Birkha{\"u}ser" }
+ @String{CambridgePress = "Cambridge University Press" }
+ @String{Chelsea = "Chelsea" }
+ @String{ClaredonPress = "Claredon Press" }
+ @String{DoverPub = "Dover Publications" }
+ @String{Eyolles = "Eyolles" }
+ @String{HoltRinehartWinston = "Holt, Rinehart and Winston" }
+ @String{Interscience = "Interscience" }
+ @String{JohnsHopkinsPress = "The Johns Hopkins University Press" }
+ @String{JohnWileySons = "John Wiley and Sons" }
+ @String{Macmillan = "Macmillan" }
+ @String{MathWorks = "The Math Works Inc." }
+ @String{McGrawHill = "McGraw-Hill" }
+ @String{NatBurStd = "National Bureau of Standards" }
+ @String{NorthHolland = "North-Holland" }
+ @String{OxfordPress = "Oxford University Press" }  %address Oxford or London?
+ @String{PergamonPress = "Pergamon Press" }
+ @String{PlenumPress = "Plenum Press" }
+ @String{PrenticeHall = "Prentice-Hall" }
+ @String{SIAMPub = "{SIAM} Publications" }
+ @String{Springer = "Springer-Verlag" }
+ @String{TexasPress = "University of Texas Press" }
+ @String{VanNostrand = "Van Nostrand" }
+ @String{WHFreeman = "W. H. Freeman and Co." }
+
+%Entries
+
+% Ayeh, J. K., Au, N., & Law, R. (2013). Predicting the intention to use consumer-generated media for travel planning. Tourism Management, 35(April), 132–143.
+
+@article{ayeh2013predicting,
+  title={Predicting the intention to use consumer-generated media for travel planning},
+  author={Ayeh, Julian K and Au, Norman and Law, Rob},
+  journal={Tourism Management},
+  volume={35},
+  pages={132--143},
+  year={2013},
+  publisher={Elsevier}
+}
+
+
+% Gretzel, U. (2012). Introduction to the section on web 2.0 and travellers’ behaviour. In M. Sigala, E. Christou, & U. Gretzel (Eds.), Social media in travel, tourism and hospitality: Theory, practice and cases (pp. 167–169). Surrey: Ashgate.
+
+@article{doi:10.1080/14616688.2012.762542,
+author = {John Cusick},
+title = {A review of: Social media in travel, tourism and hospitality: theory, practice and cases},
+journal = {Tourism Geographies},
+volume = {16},
+number = {1},
+pages = {161-162},
+year  = {2014},
+publisher = {Routledge},
+doi = {10.1080/14616688.2012.762542},
+
+URL = { 
+        https://doi.org/10.1080/14616688.2012.762542},
+eprint = { 
+        https://doi.org/10.1080/14616688.2012.762542}
+}
+
+% Gretzel, U., & Yoo, K. H. (2008). Use and impact of online travel reviews. In P. O’Connor, W. Hopken, & U. Gretzel (Eds.), Information and communication technologies in tourism 2008 (pp. 35–46). Vienna, Austria: Springer.
+
+@InProceedings{10.1007/978-3-211-77280-5_4,
+author="Gretzel, Ulrike
+and Yoo, Kyung Hyan",
+editor="O'Connor, Peter
+and H{\"o}pken, Wolfram
+and Gretzel, Ulrike",
+title="Use and Impact of Online Travel Reviews",
+booktitle="Information and Communication Technologies in Tourism 2008",
+year="2008",
+publisher="Springer Vienna",
+address="Vienna",
+pages="35--46",
+% abstract="Consumer-generated content (CGC) is growing in importance. Especially online travel reviews written by consumers are ever more available and used to inform travel-related decisions. A Web-based survey of users of the most prominent travel review site, TripAdvisor, was conducted to investigate how other travellers' reviews inform the trip planning process. Since current CGC statistics show generational and gender differences, the study also aimed at examining whether those carry over into the realm of travel review use. The results show that reviews are used mostly to inform accommodation decisions and are currently not used much for en route travel planning. Gender differences were found for perceived impacts of reviews, with females reaping greater benefits from using reviews, especially in terms of enjoyment and idea generation. Age differences occurred across a variety of perceptions and use behaviours. Implications for travel marketing and travel information systems design are provided.",
+isbn="978-3-211-77280-5"
+}
+									
+% Yoo, K.-H., & Gretzel, U. (2011). Influence of personality on travel-related consumer-generated media creation. Computers in Human Behavior, 27(2), 609–621.
+
+@article{YOO2011609,
+title = "Influence of personality on travel-related consumer-generated media creation",
+journal = "Computers in Human Behavior",
+volume = "27",
+number = "2",
+pages = "609 - 621",
+year = "2011",
+note = "Web 2.0 in Travel and Tourism: Empowering and Changing the Role of Travelers",
+issn = "0747-5632",
+doi = "https://doi.org/10.1016/j.chb.2010.05.002",
+url = "http://www.sciencedirect.com/science/article/pii/S0747563210001226",
+author = "Kyung-Hyan Yoo and Ulrike Gretzel",
+keywords = "Web 2.0, Consumer-generated media, Personality, Online content creation, Motivations, Barriers"
+}
+% Kang, M., & Schuett, M. A. (2013). Determinants of sharing travel experiences in social media. Journal of Travel & Tourism Marketing, 30(1–2), 93–107.
+
+
+@article{doi:10.1080/10548408.2013.751237,
+author = { Myunghwa   Kang  and  Michael   A.   Schuett },
+title = {Determinants of Sharing Travel Experiences in Social Media},
+journal = {Journal of Travel \& Tourism Marketing},
+volume = {30},
+number = {1-2},
+pages = {93-107},
+year  = {2013},
+publisher = {Routledge},
+doi = {10.1080/10548408.2013.751237},
+
+URL = { 
+        https://doi.org/10.1080/10548408.2013.751237
+    
+},
+eprint = { 
+        https://doi.org/10.1080/10548408.2013.751237
+    
+}
+
+}
+% Wang, Y., & Fesenmaier, D. R. (2004). Modeling participation in an online travel community. Journal of Travel Research, 42(3), 261–270.
+
+@article{doi:10.1177/0047287503258824,
+author = {Youcheng Wang and Daniel R. Fesenmaier},
+title ={Modeling Participation in an Online Travel Community},
+journal = {Journal of Travel Research},
+volume = {42},
+number = {3},
+pages = {261-270},
+year = {2004},
+doi = {10.1177/0047287503258824},
+
+URL = { 
+        https://doi.org/10.1177/0047287503258824
+    
+},
+eprint = { 
+        https://doi.org/10.1177/0047287503258824
+    
+}
+% ,
+%     abstract = { This study contributes to the understanding of online travel communities by extending and empirically testing a conceptual framework of online travel community member needs. Specifically, the relationships between member needs and their level of participation in an online travel community are examined; in addition, the effects of duration of membership on the level of participation and the role of demographic differences in terms of member needs and participation are explored. The results show that social and hedonic needs have positive effects on level of participation while functional need has a negative effect. Membership status had an influence on level of participation and demographic characteristics were found to play important roles in terms of member needs and participation in online communities. Implications of these findings are discussed as they provide important guidelines for the development of online travel communities. }
+}
+
+% Pan, B., & Crotts, J. C. (2012). Theoretical models of social media, marketing implications, and future research directions. 
+
+@article{pan2012theoretical,
+  title={Theoretical models of social media, marketing implications, and future research directions},
+  author={Pan, Bing and Crotts, John C},
+  journal={Social media in travel, Tourism and hospitality: Theory, practice and cases},
+  pages={73--85},
+  year={2012},
+  publisher={Ashgate Surrey}
+}
+
+
+
+% Chiu, C., Lin, D., & Silverman, A. (2012). China’s social-media boom. McKinsey and Company.
+
+@article{chiu2012china,
+  title={China\textquotesingle s social-media boom},
+  author={Chiu, Cindy and Lin, Davis and Silverman, Ari},
+  journal={McKinsey \& Company},
+  year={2012}
+}
+% Simms, A. (2012). Online user-generated content for travel planning – Different for different kinds of trips? e-Review of Tourism Research, 10(3), 76–85.
+
+@article{simms2012online,
+  title={Online user-generated content for travel planning-different for different kinds of trips?},
+  author={Simms, Anja},
+  year={2012}
+}
+
+% Foster, M., West, B., & Francescucci, A. (2011). Exploring social media user segmentation and online brand profiles. Journal of Brand Management, 19(1), 4–17.		
+		
+@article{foster2011exploring,
+  title={Exploring social media user segmentation and online brand profiles},
+  author={Foster, Mary and West, Bettina and Francescucci, Anthony},
+  journal={Journal of Brand Management},
+  volume={19},
+  number={1},
+  pages={4--17},
+  year={2011},
+  publisher={Springer}
+}
+
+					
+% Cox, C., Burgess, S., Sellitto, C., & Buultjens, J. (2009). The role of user-generated content in tourists’ travel planning behavior. Journal of Hospitality Marketing & Management, 18(8), 743–764.
+
+@article{cox2009role,
+  title={The role of user-generated content in tourists' travel planning behavior},
+  author={Cox, Carmen and Burgess, Stephen and Sellitto, Carmine and Buultjens, Jeremy},
+  journal={Journal of Hospitality Marketing \& Management},
+  volume={18},
+  number={8},
+  pages={743--764},
+  year={2009},
+  publisher={Taylor \& Francis}
+}
+		
+% Fotis, J., Buhalis, D., & Rossides, N. (2012). Social media use and impact during the holiday travel planning process. In M. Fuchs, F. Ricci, & L. Cantoni (Eds.), Information and communication technologies in tourism 2012 (pp. 13–24). Vienna, Austria: Springer-Verlag.
+@book{fotis2012social,
+  title={Social media use and impact during the holiday travel planning process},
+  author={Fotis, John and Buhalis, Dimitrios and Rossides, Nicos},
+  year={2012},
+  publisher={Springer-Verlag}
+}
+
+% Hudson, S., & Thal, K. (2013). The impact of social media on the consumer decision process: Implications for tourism marketing. Journal of Travel & Tourism Marketing, 30(1–2), 156–160.	
+@article{hudson2013impact,
+  title={The impact of social media on the consumer decision process: Implications for tourism marketing},
+  author={Hudson, Simon and Thal, Karen},
+  journal={Journal of Travel \& Tourism Marketing},
+  volume={30},
+  number={1-2},
+  pages={156--160},
+  year={2013},
+  publisher={Taylor \& Francis}
+}
+
+% Parra-López, E., Gutiérrez-Taño, D., Díaz-Armas, R. J., & Bulchand-Gidumal, J. (2012). Travellers 2.0: Motivation, opportunity and ability to use social media. In M. Sigala, E. Christou, & U. Gretzel (Eds.), Social media in travel, tourism and hospitality: Theory, practice and cases (pp. 171–187). Surrey, UK: Ashgate.
+
+@article{parra2012travellers,
+  title={Travellers 2.0: Motivation, opportunity and ability to use social media},
+  author={Parra-L{\'o}pez, Eduardo and Guti{\'e}rrez-Ta{\~n}o, Desiderio and Diaz-Armas, Ricardo J and Bulchand-Gidumal, Jacques},
+  journal={Social media in travel, tourism and hospitality: Theory, practice and cases},
+  pages={171--187},
+  year={2012},
+  publisher={Ashgate Publishing, Ltd.}
+}
+% Gretzel, U., & Yoo, K. H. (2008). Use and impact of online travel reviews. In P. O’Connor, W. Hopken, & U. Gretzel (Eds.), Information and communication technologies in tourism 2008 (pp. 35–46). Vienna, Austria: Springer.
+
+@article{gretzel2008use,
+  title={Use and impact of online travel reviews},
+  author={Gretzel, Ulrike and Yoo, Kyung Hyan},
+  journal={Information and communication technologies in tourism 2008},
+  pages={35--46},
+  year={2008},
+  publisher={Springer}
+}
+% Gretzel, U., Yoo, K. H., & Purifoy, M. (2007). Online travel review study: Role & impact of online travel reviews. Laboratory for Intelligent Systems in Tourism.
+
+@misc{gretzel2007online,
+  title={Online Travel Review study: Role and Impact of Online Travel Reviews, Laboratory for intelligent systems in Tourism, Texas, A\&M University (2007)},
+  author={Gretzel, U and Yoo, KH and Purifoy, M},
+  year={2007}
+}
+
+% Yoo, K.-H., & Gretzel, U. (2012). Use and creation of social media by travellers. In M. Sigala, E. Christou, & U. Gretzel (Eds.), Social media in travel, tourism and hospitality: Theory, practice and cases (pp. 189–205). Surrey, UK: Ashgate.
+
+@article{yoo2016use,
+  title={Use and Creation of Social Media by},
+  author={Yoo, Kyung-Hyan and Gretzel, Ulrike},
+  journal={Social media in travel, tourism and hospitality: Theory, practice and cases},
+  volume={189},
+  year={2016}
+}
+
+						
+% Suzanne Amaro, Paulo Duarte, Carla Henriques (2016). Travelers’ use of social media: A clustering approach. Annals of Tourism Research 59 (2016) (pp. 1–15)
+					
+@article{amaro2016travelers,
+  title={Traveler\textquotesingle s use of social media: A clustering approach},
+  author={Amaro, Suzanne and Duarte, Paulo and Henriques, Carla},
+  journal={Annals of Tourism Research},
+  volume={59},
+  pages={1--15},
+  year={2016},
+  publisher={Elsevier}
+}
+% Influence of personality on travel-related consumer-generated media creation Kyung-Hyan Yoo a,*, Ulrike Gretzel
+				
+		
+@article{yoo2011influence,
+  title={Influence of personality on travel-related consumer-generated media creation},
+  author={Yoo, Kyung-Hyan and Gretzel, Ulrike},
+  journal={Computers in Human Behavior},
+  volume={27},
+  number={2},
+  pages={609--621},
+  year={2011},
+  publisher={Elsevier}
+}
+
+% Chung, J. Y., & Buhalis, D. (2008b). Web 2.0: A study of online travel community. In P. O’Connor, W. Hopken, & U. Gretzel (Eds.), Information and communication technologies in tourism 2008 (pp. 70–81). Vienna, Austria: Springer.
+
+@article{chung2008web,
+  title={Web 2.0: A study of online travel community},
+  author={Chung, Jin Young and Buhalis, Dimitrios},
+  journal={Information and communication technologies in tourism 2008},
+  pages={70--81},
+  year={2008},
+  publisher={Springer}
+}
+
+% Ip, C., Lee, H. A., & Law, R. (2012). Profiling the users of travel websites for planning and online experience sharing. Journal of Hospitality & Tourism Research, 36(3), 418–426.	
+
+@article{ip2012profiling,
+  title={Profiling the users of travel websites for planning and online experience sharing},
+  author={Ip, Crystal and Lee, Hee and Law, Rob},
+  journal={Journal of Hospitality \& Tourism Research},
+  volume={36},
+  number={3},
+  pages={418--426},
+  year={2012},
+  publisher={Sage Publications Sage CA: Los Angeles, CA}
+}
+
+% Kurtulus", S., Özkan, E., & Öztürk, S. (2015). How do social media users in Turkey differ in terms of their use habits and preferences? International Journal of Business and Information, 10(3), 337–364.	
+
+@article{kurtulucs2015social,
+  title={How do social media users in Turkey differ in terms of their use habits and preferences?},
+  author={Kurtulu{\c{s}}, Sema and {\"O}zkan, Erdem and {\"O}zt{\"u}rk, Selen},
+  year={2015}
+}
+
+					
+% Woszczynski, A. B., Roth, P. L., & Segars, A. H. (2002). Exploring the theoretical foundations of playfulness in computer interactions. Computers in Human Behavior, 18(4), 369–388.
+	
+@article{woszczynski2002exploring,
+  title={Exploring the theoretical foundations of playfulness in computer interactions☆},
+  author={Woszczynski, Amy B and Roth, Philip L and Segars, Albert H},
+  journal={Computers in Human Behavior},
+  volume={18},
+  number={4},
+  pages={369--388},
+  year={2002},
+  publisher={Elsevier}
+}
+
+% Acar, A. S., & Polonsky, M. (2007). Online social networks and insights into marketing communications. Journal of Internet Commerce, 6(4), 55–72.
+@article{acar2007online,
+  title={Online social networks and insights into marketing communications},
+  author={Acar, Adam S and Polonsky, Maxim},
+  journal={Journal of Internet Commerce},
+  volume={6},
+  number={4},
+  pages={55--72},
+  year={2007},
+  publisher={Taylor \& Francis}
+}
+
+% Tuten, T. L., & Bosnjak, M. (2001). Understanding differences in Web usage: The role of need for cognition and the five factor model of personality. Social Behavior and personality, 29(4), 391–398.
+
+@article{tuten2001understanding,
+  title={Understanding differences in web usage: The role of need for cognition and the five factor model of personality},
+  author={Tuten, Tracy L and Bosnjak, Michael},
+  journal={Social Behavior and Personality: an international journal},
+  volume={29},
+  number={4},
+  pages={391--398},
+  year={2001},
+  publisher={Scientific Journal Publishers}
+}
+
+% Wang, Y., Yu, Q., & Fesenmaier, D. R. (2001). Defining virtual tourism community. In P. Sheldon, K. Wöber, & D. R. Fesenmaier (Eds.), Information and communication technologies in tourism 2001 (pp. 262–271). Vienna, Austria: Springer Verlag.
+
+@article{wang2002defining,
+  title={Defining the virtual tourist community: implications for tourism marketing},
+  author={Wang, Youcheng and Yu, Quaehee and Fesenmaier, Daniel R},
+  journal={Tourism management},
+  volume={23},
+  number={4},
+  pages={407--417},
+  year={2002},
+  publisher={Elsevier}
+}
+
+
+% Jones, S., & Fox, S. (2009). Generations online in 2009. Pew internet & American life project. Accessed online (June 22, 2009) at http://www.pewinternet.org/ Reports/2009/Generations-Online-in-2009.aspx.
+
+% Lenhart, A., Madden, M., Macgill, A. R., & Smith, A. (2007). Teens and social media. Pew internet & American life project. Accessed online (May 5, 2008) at http:// www.pewinternet.org/Reports/2007/Teens-and-Social-Media.aspx.
+
+@misc{lenhart2008teens,
+  title={Teens and Social Media. Pew Internet \& American Life Project. December 2007},
+  author={Lenhart, A and Madden, M and Macgill, AR and Smith, A},
+  year={2008}
+}
+
+% Verna, P. (2009). User-generated content: More popular than profitable? eMarketer. Accessed online (June 30, 2009) at http://www.emarketer.com.
+@article{verna2009user,
+  title={User-generated content: More popular than profitable? eMarketer},
+  author={Verna, Paul},
+  journal={Accessed online (June 30, 2009) at http://www. emarketer. com},
+  year={2009}
+}
+
+% Technorati (2008). State of the blogosphere. Accessed online (July 2, 2009) at http:// technorati.com/blogging/state-of-the-blogosphere/.
+
+% eMarketer (2009). Demographic profile of US social network users, by network, May 2009. Accessed online (August, 2009) at http://www.emarketer.com.
+
+% Madrigal, R. (1995). Personal values, traveler personality type, and leisure travel style. Journal of Leisure Research, 27(2), 125–142.
+
+@article{madrigal1995personal,
+  title={Personal values, traveler personality type, and leisure travel style},
+  author={Madrigal, Robert},
+  journal={Journal of Leisure research},
+  volume={27},
+  number={2},
+  pages={125--142},
+  year={1995},
+  publisher={Taylor \& Francis}
+}
+
+% Nickerson, N. P., & Ellis, G. D. (1991). Traveler types and activation theory: A
+% comparison of two models. Journal of Travel Research, 29(3), 26–31.
+
+@article{nickerson1991traveler,
+  title={Traveler types and activation theory: A comparison of two models},
+  author={Nickerson, Norma Polovitz and Ellis, Gary D},
+  journal={Journal of Travel Research},
+  volume={29},
+  number={3},
+  pages={26--31},
+  year={1991},
+  publisher={Sage Publications Sage CA: Thousand Oaks, CA}
+}
+
+% Roehl, W. S., & Fesenmaier, D. R. (1992). Risk perception and pleasure travel: An
+% exploratory analysis. Journal of Travel Research, 30(4), 17–26.
+
+@article{roehl1992risk,
+  title={Risk perceptions and pleasure travel: An exploratory analysis},
+  author={Roehl, Wesley S and Fesenmaier, Daniel R},
+  journal={Journal of Travel research},
+  volume={30},
+  number={4},
+  pages={17--26},
+  year={1992},
+  publisher={Sage Publications Sage CA: Thousand Oaks, CA}
+}
+
+
+% Griffith, D. A., & Albanese, P. J. (1996). An examination of plog’s psychographic travel model within a student population. Journal of Travel Research, 34(4), 47–51.
+
+@article{griffith1996examination,
+  title={An examination of Plog's psychographic travel model within a student population},
+  author={Griffith, David A and Albanese, Paul J},
+  journal={Journal of Travel Research},
+  volume={34},
+  number={4},
+  pages={47--51},
+  year={1996},
+  publisher={Sage Publications Sage CA: Thousand Oaks, CA}
+}
+
+
+
+% Cabrera, A., Collins, W. C., & Salgado, J. F. (2006). Determinants of individual engagement in knowledge sharing. International Journal of Human Resource Management, 17(2), 245–264.
+
+@article{cabrera2006determinants,
+  title={Determinants of individual engagement in knowledge sharing},
+  author={Cabrera, Angel and Collins, William C and Salgado, Jesus F},
+  journal={The International Journal of Human Resource Management},
+  volume={17},
+  number={2},
+  pages={245--264},
+  year={2006},
+  publisher={Taylor \& Francis}
+}
+
+% Gibson, H., Yiannakis, A.: Tourist roles: needs and the lifecourse. Ann. Tourism Res. 29(2), 358–383 (2002)
+
+@article{gibson2002tourist,
+  title={Tourist roles: Needs and the lifecourse},
+  author={Gibson, Heather and Yiannakis, Andrew},
+  journal={Annals of tourism research},
+  volume={29},
+  number={2},
+  pages={358--383},
+  year={2002},
+  publisher={Elsevier}
+}
+
+% Gretzel, U., Mitsche, N., Hwang, Y., Fesenmaier, D.R.: Travel personality testing for destination recommendation systems. In: Destination Recommendation Systems: Behavioral Foundations and Applications, vol. 42(4), pp. 121–136. CAB International (2006)
+
+@article{gretzel2006travel,
+  title={Travel personality testing for destination recommendation systems},
+  author={Gretzel, Ulrike and Mitsche, NICOLE and Hwang, Yeong-Hyeon and Fesenmaier, Daniel R and others},
+  journal={Destination Recommendation Systems: Behavioral Foundations and Applications},
+  volume={42},
+  number={4},
+  pages={121--136},
+  year={2006},
+  publisher={CABI}
+}
+
+% Delic,́ A., Neidhardt, J., Werthner, H.: Are sun lovers nervous? E-Rev. Tourism Res. (eRTR), ENTER 2016 Special issue (2016)
+
+@article{delic2016sun,
+  title={Are Sun Lovers nervous?},
+  author={Deli{\'c}, Amra and Neidhardt, Julia and Werthner, Hannes},
+  journal={E-Rev. Tourism Res.(eRTR), ENTER},
+  year={2016}
+}
+
+% Goldberg, L.R.: An alternative “description of personality”: the big-five factor structure. J. Pers. Soc. Psychol. 59(6), 1216 (1990)
+
+@article{goldberg1990alternative,
+  title={An alternative" description of personality": the big-five factor structure.},
+  author={Goldberg, Lewis R},
+  journal={Journal of personality and social psychology},
+  volume={59},
+  number={6},
+  pages={1216},
+  year={1990},
+  publisher={American Psychological Association}
+}
+
+% Neidhardt, J., Seyfang, L., Schuster, R., Werthner, H.: A picture-based approach to recommender
+% systems. Inf. Technol. Tourism 15(1), 49–69 (2015)
+
+@article{neidhardt2015picture,
+  title={A picture-based approach to recommender systems},
+  author={Neidhardt, Julia and Seyfang, Leonhard and Schuster, Rainer and Werthner, Hannes},
+  journal={Information Technology \& Tourism},
+  volume={15},
+  number={1},
+  pages={49--69},
+  year={2015},
+  publisher={Springer}
+}
+
+% Neidhardt, J., Schuster, R., Seyfang, L., Werthner, H.: Eliciting the users’ unknown preferences. In: Proceedings of the 8th ACM Conference on Recommender Systems, pp. 309–312 (2014)
+
+@inproceedings{neidhardt2014eliciting,
+  title={Eliciting the users' unknown preferences},
+  author={Neidhardt, Julia and Schuster, Rainer and Seyfang, Leonhard and Werthner, Hannes},
+  booktitle={Proceedings of the 8th ACM Conference on Recommender systems},
+  pages={309--312},
+  year={2014},
+  organization={ACM}
+}
+
+% Matzler, K., Renzl, B., Mooradian, T., & von Krogh, G. (2006). Personality traits,
+% affective commitment, documentation of knowledge and knowledge sharing. In
+% Paper presented at the annual meeting of Academy of Management, Atlanta,
+% Georgia.
+
+@article{matzler2011personality,
+  title={Personality traits, affective commitment, documentation of knowledge, and knowledge sharing},
+  author={Matzler, Kurt and Renzl, Birgit and Mooradian, Todd and von Krogh, Georg and Mueller, Julia},
+  journal={The International Journal of Human Resource Management},
+  volume={22},
+  number={02},
+  pages={296--310},
+  year={2011},
+  publisher={Taylor \& Francis}
+}
+
+% Barrick, M. R., & Mount, M. K. (1991). The Big Five personality dimensions and job performance. A meta-analysis. Personnel Psychology, 44, 1–26.
+
+@article{barrick1991big,
+  title={The big five personality dimensions and job performance: a meta-analysis},
+  author={Barrick, Murray R and Mount, Michael K},
+  journal={Personnel psychology},
+  volume={44},
+  number={1},
+  pages={1--26},
+  year={1991},
+  publisher={Wiley Online Library}
+}
+
+% Liao, H., & Chuang, A. (2004). A multilevel investigation of factors influencing employee service performance and customer outcomes. Academy of Management Journal, 47(1), 41–58.
+
+@article{liao2004multilevel,
+  title={A multilevel investigation of factors influencing employee service performance and customer outcomes},
+  author={Liao, Hui and Chuang, Aichia},
+  journal={Academy of Management journal},
+  volume={47},
+  number={1},
+  pages={41--58},
+  year={2004},
+  publisher={Academy of Management Briarcliff Manor, NY 10510}
+}
+
+% Mapping of Tourism Destinations to Travel Behavioural Patterns
+% Mete Sertkan(&), Julia Neidhardt, and Hannes Werthner
+
+@incollection{sertkan2018mapping,
+  title={Mapping of Tourism Destinations to Travel Behavioural Patterns},
+  author={Sertkan, Mete and Neidhardt, Julia and Werthner, Hannes},
+  booktitle={Information and Communication Technologies in Tourism 2018},
+  pages={422--434},
+  year={2018},
+  publisher={Springer}
+}
