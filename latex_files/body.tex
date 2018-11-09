@@ -51,7 +51,7 @@ The studies by Madrigal, 1995; Nickerson et.al, 1991; Roehl et.al, 1992 suggest 
 Madrigal, 1995, one of the most significant ones from the aforementioned list, examined the relationship between the List of Values (LOV) and Plog's traveler personality type scale and each of their ability to predict travel style. They collected survey data from a convenience sample of 514 visitors to a tourist destination in Arizona. Results demonstrated that personal values were significantly related to traveler personality type (p < .001). Furthermore, it was seen that personal values significantly differentiated group travelers from independent travelers (p < .001), while on the other hand, Plog's scale was unable to do so (p > .25). It was hence concluded that Plog's measure of traveler personality type may more accurately be conceptualized in terms of locus of control \cite{madrigal1995personal}.
 
 
-A lot of research has already been conducted to identify and categorize various tourist roles and describing the relationship between an individual\textquotesingle s travel behaviour, their preferences, interests and requirements. These can be roughly summarized in table \ref{table: 2}
+A lot of research has already been conducted to identify and categorize various tourist roles and describing the relationship between an individual\textquotesingle s travel behaviour, their preferences, interests and requirements. These can be roughly summarized in table \ref{table: 2}.
 
 \begin{table*}[t]
     \centering
@@ -115,6 +115,30 @@ Even though Cabrera et.al found a positive correlation between the three dimensi
 
 \end{table*}
 
+\subsection{Mapping of Destination Features to Seven Factors}
+
+The study by Sertkan et.al did not only to project destinations into the seven-dimensional vector space of travel behavioural patterns using their features, but more importantly tried to establish a relationship between the seven-factors and destination features.
+In James, Witten, Hastie, and Tibshirani (2013a) proposed the choice of linear models over more complex ones when targeting inference and interpretability \cite{james2013introduction}. Considering this fact, a multitude of linear regression model (James, Witten, Hastie, \& Tibshirani, 2013b \cite{james2013introduction}) with step-wise variable selection (James, Witten, Hastie, \& Tibshirani, 2013c \cite{james2013introduction}) was applied \cite{sertkan2018mapping}. 
+
+As the seven factors are obtained from factor analysis, they are considered independent from each other. Hence, for every travel behavioural pattern, a separate model can be fitted. This model takes the features of a destination as input and returns the factor score (0–1) as output.
+The train-test split of the data-sample is done at 80/20 and model performance is assessed by R2 (proportion of variance explained) and root mean square error (standard deviation of the residuals/prediction errors) of training (RMSE\textsubscript{train}) and test set (RMSE\textsubscript{test}).
+
+The performance of each model has been shown in table \ref{fig:table3}.
+
+\begin{figure}
+  \includegraphics[width=\linewidth]{latex_files/figures/table3.png}
+  \caption{Performance of the resulting multiple linear regression models \cite{sertkan2018mapping}}
+  \label{fig:table3}
+\end{figure}
+
+					
+The resulting models provide strong evidence that there lies a statistically significant relationship between selected destination features and the seven factors,(used in the corresponding models), with p < 0.001. The values of  RMSE\textsubscript{train} and RMSE\textsubscript{test} are close, indicating that the performance of the resulting models will be similar out of sample.  
+					
+Overall, all travel behavioural patterns are well described by the resulting models(52–76\% of the variance), except Social \& Sports, where only 19\% of the variance is explained. This can be accorded to the uneven distribution of the expert mapping of Social \& Sports, where 53.83\% of the destination scored with 0.5 and only 1.78\% scored with 0 and 4.10\% with 1 respectively.
+
+However, there is significant evidence of a relationship between the destination features and the factor Social \& Sports. 70 and 76\% of the variance can be explained respectively for Sun \& Chill-Out and Action-Fun, making them the best fitted models
+				
+				
 
 
 
