@@ -5,6 +5,20 @@
 \renewcommand{\baselinestretch}{1.0}
 \usepackage{booktabs} % For formal tables
 \usepackage{enumerate}
+\usepackage{amsmath}
+
+\usepackage{algorithm}
+\usepackage{algpseudocode}
+
+\algblock{Input}{EndInput}
+\algnotext{EndInput}
+\algblock{Output}{EndOutput}
+\algnotext{EndOutput}
+\newcommand{\Desc}[2]{\State \makebox[2em][l]{#1}#2}
+\algnewcommand\RETURN{\algorithmicreturn}
+
+
+
 \begin{document}
 \title{Automated Travel Preference Elicitation from Social Media: A survey and summary of existing approaches}
 \subtitle{Study of travellers' use of social media and their personalities from their social media profiles}
